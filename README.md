@@ -36,6 +36,9 @@ This repository is automatically updated with new releases from the theme reposi
 ## License
 
 This work is published under [MIT][mit] License.
+## Video Tutorial
+Meet Jekyll - The Static Site Generator by Techo Tim
+https://www.youtube.com/@TechnoTim
 https://youtu.be/F8iOU1ci19Q?si=JdFXECL4MYrZ07q9
 
 [gem]: https://rubygems.org/gems/jekyll-theme-chirpy
