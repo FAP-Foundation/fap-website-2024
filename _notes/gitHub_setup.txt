@@ -1,0 +1,17 @@
+List ssh keys
+ls -al ~/.ssh
+
+Start the agent:
+eval "$(ssh-agent -s)" => Agent pid 72308
+
+Add your SSH key
+ssh-add ~/.ssh/FAP-sshKey
+=> Identity added: /Users/james/.ssh/FAP-sshKey (info@fap.foundation)
+
+Test github connection:
+ssh -T git@github.com
+=> Hi FAP-Foundation! You've successfully authenticated, but GitHub does not provide shell access.
+
+git config user.name "FAP-Foundation"
+git config user.email "info@fap.foundation"
+git remote set-url origin git@github.com:FAP-Foundation/fap.github.io.git
