@@ -14,12 +14,12 @@ timezone: America/Edmonton
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Freedom Application Platform - Foundation # the main title
+title: The Foundation for 'Freedom Application Platform' (FAP) # the main title
 
-tagline: Fix the broken internet # it will display as the subtitle
+tagline: Let's fix the broken internet! # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  A foundation to coordinate new platform technologies to access the internet.
+  A new Foundation,formed to coordinate the standardization of disruptive platform technologies, which will transform how you use web applicaions.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -59,7 +59,7 @@ webmaster_verifications:
 # Web Analytics Settings
 analytics:
   google:
-    id: # fill in your Google Analytics ID
+    id: "G-1MHMZ0R9GK"
   goatcounter:
     id: # fill in your GoatCounter ID
   umami:
@@ -98,7 +98,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: /assets/fap_hero.jpg
+avatar: assets/img/favicons/android-chrome-512x512.png
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
@@ -195,6 +195,8 @@ defaults:
 
 sass:
   style: compressed
+  addon:
+    - custom
 
 compress_html:
   clippings: all
@@ -223,3 +225,19 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+# https://github.com/jekyll/jekyll-compose
+jekyll_compose:
+  default_front_matter:
+    drafts:
+      description:
+      image:
+      category:
+      tags:
+    posts:
+      description:
+      image:
+      category:
+      tags:
+      published: false
+      sitemap: false
