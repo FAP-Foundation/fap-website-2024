@@ -19,3 +19,12 @@ git remote set-url origin git@github.com:FAP-Foundation/fap.github.io.git
 git config --list
 
 "q" to exit
+
+!!! THIS started the browser hand shake!!!
+Ensure your user.name and user.email are set correctly.
+Configure VS Code to use SSH:
+Open VS Code
+Open the Command Palette (Cmd+Shift+P)
+Type "Git: Clone" and select it
+Choose "Clone from GitHub" (you may need to install the GitHub extension if prompted)
+VS Code should detect your SSH configuration automatically
