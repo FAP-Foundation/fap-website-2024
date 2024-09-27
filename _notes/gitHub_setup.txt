@@ -15,3 +15,7 @@ ssh -T git@github.com
 git config user.name "FAP-Foundation"
 git config user.email "info@fap.foundation"
 git remote set-url origin git@github.com:FAP-Foundation/fap.github.io.git
+
+git config --list
+
+"q" to exit
