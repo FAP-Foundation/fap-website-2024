@@ -31,4 +31,5 @@ VS Code should detect your SSH configuration automatically
 
 restarted the computer, still not working.
 
-git credential-osxkeychain erase
+git credential-osxkeychain erase - did not fix
+
