@@ -28,3 +28,7 @@ Open the Command Palette (Cmd+Shift+P)
 Type "Git: Clone" and select it
 Choose "Clone from GitHub" (you may need to install the GitHub extension if prompted)
 VS Code should detect your SSH configuration automatically
+
+restarted the computer, still not working.
+
+git credential-osxkeychain erase
